@@ -271,7 +271,7 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
       : isTablet
       ? [-12, 10, 0]
       : [-24, 10, 0],
-    targetPosition: isSmall
+    ethLogoPosition: isSmall
       ? [-5, -10, -10]
       : isMobile
       ? [-9, -10, -10]
