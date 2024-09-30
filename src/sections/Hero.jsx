@@ -6,6 +6,7 @@ import CanvasLoader from "../components/CanvasLoader";
 import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants";
 import EthLogo from "../components/EthLogo";
+import PolygonLogo from "../components/PolygonLogo";
 
 const Hero = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
@@ -37,6 +38,7 @@ const Hero = () => {
 
             <group>
               <EthLogo position={sizes.ethLogoPosition}></EthLogo>
+              <PolygonLogo position={sizes.polygonLogoPosition}></PolygonLogo>
             </group>
             <ambientLight intensity={1} />
             <directionalLight position={[10, 10, 10]} intensity={0.5} />
