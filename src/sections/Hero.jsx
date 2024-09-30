@@ -8,11 +8,12 @@ import { calculateSizes } from "../constants";
 import EthLogo from "../components/EthLogo";
 import PolygonLogo from "../components/PolygonLogo";
 import Cube from "../components/Cube";
+import Rings from "../components/Rings";
 
 const Hero = () => {
-  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
-  const isTablet = useMediaQuery({ query: { minWidth: 768, maxWidth: 1024 } });
-  const isSmall = useMediaQuery({ query: "(max-width: 440px)" });
+  const isSmall = useMediaQuery({ maxWidth: 440 });
+  const isMobile = useMediaQuery({ maxWidth: 768 });
+  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1024 });
 
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
 
@@ -40,6 +41,7 @@ const Hero = () => {
             <group>
               <EthLogo position={sizes.ethLogoPosition}></EthLogo>
               <PolygonLogo position={sizes.polygonLogoPosition}></PolygonLogo>
+              <Rings position={sizes.ringPosition} />
               <Cube position={sizes.cubePosition}></Cube>
             </group>
             <ambientLight intensity={1} />
