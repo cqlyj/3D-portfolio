@@ -7,6 +7,7 @@ import { useMediaQuery } from "react-responsive";
 import { calculateSizes } from "../constants";
 import EthLogo from "../components/EthLogo";
 import PolygonLogo from "../components/PolygonLogo";
+import Cube from "../components/Cube";
 
 const Hero = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
@@ -39,6 +40,7 @@ const Hero = () => {
             <group>
               <EthLogo position={sizes.ethLogoPosition}></EthLogo>
               <PolygonLogo position={sizes.polygonLogoPosition}></PolygonLogo>
+              <Cube position={sizes.cubePosition}></Cube>
             </group>
             <ambientLight intensity={1} />
             <directionalLight position={[10, 10, 10]} intensity={0.5} />
