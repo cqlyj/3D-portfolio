@@ -9,7 +9,6 @@ const PolygonLogo = (props) => {
           geometry={nodes.Object_4.geometry}
           material={materials.MT_Polygon}
           rotation={[Math.PI, Math.PI, 0]}
-          position={[-2, -0.5, 0]}
         />
       </group>
     </Float>
