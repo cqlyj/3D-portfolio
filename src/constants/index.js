@@ -282,32 +282,32 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "CodeHawks",
+    pos: "Smart Contract Security Researcher",
+    duration: "2024 - Present",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/framer.svg",
+      "CodeHawks serves as a incredible powerful platform for smart contract competitive auditing. I have been working as a smart contract security researcher, conducting security audits and writing comprehensive reports to ensure the safety of smart contracts.",
+    icon: "/assets/codeHawks.jpg",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
+    name: "Foundry",
+    pos: "Smart Contract Developer",
+    duration: "2023 - 2024",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/figma.svg",
+      "Foundry is a incredible platform for developing smart contracts. I have used it to create various phenomenal projects like VSkill and write a ton of test cases to ensure the security of the contracts.",
+    icon: "/assets/foundry.png",
     animation: "clapping",
   },
   {
     id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
+    name: "Chainlink",
+    pos: "Smart Contract Developer",
+    duration: "2023",
     title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
+      "Chainlink Constellation Hackathon was a great opportunity to work with Chainlink's technology. I developed a gold-backed stablecoin project, integrating Chainlink's functionality and work with teammate all over the world.",
+    icon: "/assets/chainlink.png",
     animation: "salute",
   },
 ];
