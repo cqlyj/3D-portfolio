@@ -27,7 +27,7 @@ const About = () => {
               <p className="grid-headtext">Hi, I&apos;m Luo Yingjie</p>
               <p className="grid-subtext">
                 I&apos;ve been enjoying Web3 and blockchain development with a
-                focus on Solidity and on-chain services since I first
+                focus on Solidity and security audition since I first
                 encountered these decentralized techniques. With a lot of
                 projects under my belt and remote collaboration experience,
                 I&apos;m eager to get an internship or job in blockchain
@@ -49,7 +49,8 @@ const About = () => {
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
                 I specialize in a variety of languages, frameworks, and tools
-                that allow me to build robust and scalable web3 applications.
+                that allow me to build robust web3 applications as well as
+                security audit.
               </p>
             </div>
           </div>
@@ -100,11 +101,13 @@ const About = () => {
             />
 
             <div>
-              <p className="grid-headtext">My Passion for Coding</p>
+              <p className="grid-headtext">My Passion for Web3</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code.
-                Programming isn&apos;t just my profession—it&apos;s my passion.
-                I enjoy exploring new technologies, and enhancing my skills.
+                I love web3, those blockchain technologies, this kind of
+                decentralized world. I&apos;m always looking for new
+                opportunities to learn and grow in this field. I like the idea
+                of decentralization and the feeling of finding bugs to prevent
+                hacks.
               </p>
             </div>
           </div>
