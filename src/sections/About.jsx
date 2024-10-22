@@ -27,7 +27,7 @@ const About = () => {
               <p className="grid-headtext">Hi, I&apos;m Luo Yingjie</p>
               <p className="grid-subtext">
                 I&apos;ve been enjoying Web3 and blockchain development with a
-                focus on Solidity and security audition since I first
+                focus on Solidity and security review since I first
                 encountered these decentralized techniques. With a lot of
                 projects under my belt and remote collaboration experience,
                 I&apos;m eager to get an internship or job in blockchain
